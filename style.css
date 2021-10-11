@@ -31,10 +31,30 @@ body{
 
 .about{
     height: 250px;
+    margin: 0 auto;
     background: rgb(5, 184, 145);
 }
 
 .box_about{
+    
     background: rgb(117, 255, 225);
     margin: 0 auto;
+}
+
+.dati{
+    background: white;
+    height: 400px;
+}
+
+.box_title_in{
+    background: lightgray;
+}
+
+.box_inserition{
+    background: lightgray;
+    height: 200px;
+}
+
+.box_button_in{
+    background: lightgray;
 }
