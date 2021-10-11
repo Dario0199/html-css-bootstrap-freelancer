@@ -43,7 +43,7 @@ body{
 
 .dati{
     background: white;
-    height: 400px;
+    
 }
 
 .box_title_in{
@@ -57,4 +57,18 @@ body{
 
 .box_button_in{
     background: lightgray;
+}
+
+.info{
+    background: darkblue;
+}
+
+.box_info{
+    background: blue;
+}
+
+.box_copy{
+    background: rgb(0, 0, 83);
+    color: white;
+    
 }
