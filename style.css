@@ -1,5 +1,5 @@
 body{
-    margin: 0 auto;
+    
 }
 
 .header_1{
@@ -22,10 +22,19 @@ body{
     height: 100px;
 }
 
-
-
 .img{
+    margin: 0 auto;
     width: 200px;
     height: 200px;
     background: rgb(168, 3, 3);
+}
+
+.about{
+    height: 250px;
+    background: rgb(5, 184, 145);
+}
+
+.box_about{
+    background: rgb(117, 255, 225);
+    margin: 0 auto;
 }
