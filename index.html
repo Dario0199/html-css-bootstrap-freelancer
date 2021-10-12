@@ -5,91 +5,154 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Bootstrap Freelancer</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <section class="container">
+    
         <!-- header -->
-        <div class="row header_1">
-            <div class="col-">
-                <div class="row">
-                    <div class="col-6"><div class="box_header">testo</div></div>
-                    <div class="col-6"><div class="box_header">testo</div></div>
+    <header class="header">
+        <nav class="navbar navbar-expand-md navbar-dark site-navbar">
+            <div class="container-md">
+              <a class="navbar-brand fw-bold" href="#">Start bootstrap</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+        <!-- main -->
+        <!-- title -->
+        <div class="main-title">
+            <div class="avatar">
+                <img class="mt-5" src="./img/avatar.svg" alt="">
+            </div>
+           <div class="row_title py-4">
+                <h1 class="fw-bold ">start bootstrap</h1>
+                <span>graphic artist-web designer-illustrator</span>
+           </div>
+        </div>
+        <!--image -->
+        <section class="container-md">
+        <div class="portfolio py-4">
+            <h1>portfolio</h1>
+        </div>
+        <div class="row image my-5">
+            <div class="col-sm-12 col-md-6 col-xl-4 my-1">
+                <div class="box img m-0 br-3">
+                    <img class="" src="./img/cabin.png" alt="">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-xl-4 my-1">
+                <div class="box img">
+                    <img src="./img/cake.png" alt="">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-xl-4 my-1">
+                <div class="box img ">
+                    <img src="./img/circus.png" alt="">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-xl-4 my-1">
+                <div class="box img">
+                    <img src="./img/game.png" alt="">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-xl-4 my-1">
+                <div class="box img">
+                    <img src="./img/safe.png" alt="">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-xl-4 my-1">
+                <div class="box img">
+                    <img src="./img/submarine.png" alt="">
                 </div>
             </div>
         </div>
-        <div class="row header_2">
-            <div class="col-"></div>
-        </div>
-        <!-- main -->
-        <!-- title -->
-        <div class="row title">
-            <div class="col-"></div>
-        </div>
-        <!--image -->
-        <div class="row image my-5">
-            <div class="col-sm-12 col-md-6 col-xl-4 my-1">
-                <div class="box img">1</div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-xl-4 my-1">
-                <div class="box img">2</div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-xl-4 my-1">
-                <div class="box img">3</div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-xl-4 my-1">
-                <div class="box img">4</div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-xl-4 my-1">
-                <div class="box img">5</div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-xl-4 my-1">
-                <div class="box img">6</div>
-            </div>
-        </div>
+        </section>
         <!-- about -->
         <div class="row">
             <div class="col">
                 <div class="box about">
-                    <div class="row">
-                        <div class="col-6 my-5">
-                            <div class="box_about">testo</div>
-                        </div>
+                    <section class="container-md">
+                    <div class="title_about">
+                        <h1 class="py-4">about</h1>
                     </div>
+                    <div class="container-sm">
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-6">
-                            <div class="box_about">testo</div>
+                            <div class="box_about mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, sequi minima assumenda repellat rerum pariatur eos in quae porro vitae sed eaque ex, quod voluptate cum? Tenetur ratione magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores unde veritatis possimus assumenda harum necessitatibus fuga pariatur culpa, inventore voluptatum quidem accusantium numquam repellat doloremque voluptate ea ipsum similique voluptas.</div>
                         </div>
                         <div class="col-12 col-sm-12 col-md-6">
-                            <div class="box_about">testo</div>
+                            <div class="box_about">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid quos alias minus at incidunt consectetur nostrum aut expedita ea soluta, atque necessitatibus pariatur ducimus voluptates, harum quia mollitia asperiores. Expedita. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit fugiat quae atque soluta eligendi, excepturi ipsum voluptatibus illo laudantium nobis aspernatur blanditiis totam autem, labore ex voluptate? Qui, libero sit.</div>
                         </div>
                     </div>
+                    </div>
+                    <div class="download py-4">
+                        <button class="btn btn-lg">
+                            <i class="fas fa-arrow-down"></i>
+                            Download
+                        </button>
+                    </div>
+                    
+                </section>
                 </div>
             </div>
         </div>
         <!-- inserimento -->
-        <div class="row ">
-            <div class="col">
-                <div class="box dati">
-                    <div class="row">
-                        <div class="col my-3">
-                            <div class="box_title_in">title</div>
+        <section class="container-sm my-4">
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-8">
+                <h1 class="title-registration">contact me</h1>
+                   <form class="registration-form" action="#">
+                       <div class="mb-4">
+                           <label for="Name" class="form-lable fw-bold">
+                               Name
+                           </label>
+                           <input type="text" class="form-control" id="Name">
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-5 mb-3">
-                            <div class="box_inserition">inserimento dati</div>
+                        <div class="mb-4">
+                           <label for="Name" class="form-lable fw-bold">
+                               Email Address
+                           </label>
+                           <input type="text" class="form-control" id="Email Address">
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col mb-3">
-                            <div class="box_button_in">button</div>
+                        <div class="mb-4">
+                           <label for="Name" class="form-lable fw-bold">
+                               Phone Number
+                           </label>
+                           <input type="text" class="form-control" id="Phone Number">
                         </div>
-                    </div>
-                </div>
+                        <div class="mb-4">
+                           <label for="Name" class="form-lable fw-bold">
+                               Message
+                           </label>
+                           <input type="text" class="form-control txt" id="Message">
+                       </div>
+                       <div class="button-dati">
+                           <button class="btn-lg">
+                            Send
+                           </button>
+                       </div>
+                   </form>
+            </div>
             </div>
         </div>
+        </section>
         <!-- footer -->
         <div class="row">
             <div class="col">
@@ -117,6 +180,8 @@
                 <div class="box_copy p-3">testo</div>
             </div>
         </div>
-    </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 </body>
 </html>

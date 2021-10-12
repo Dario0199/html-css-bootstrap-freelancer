@@ -1,62 +1,109 @@
-body{
-    
+.header .site-navbar{
+    background: rgb(37, 37, 88);
 }
 
-.header_1{
-    height: 40px;
-    background: darkblue;
+.navbar-brand{
+    text-transform: uppercase;
+    color: white;
 }
 
-.box_header{
-    height: 40px;
-    background: blue;
+.navbar-nav{
+    text-transform: uppercase;
 }
 
-.header_2{
-    height: 250px;
+.main-title{
     background: rgb(5, 184, 145);
+    height: auto;
 }
 
-
-.title{
-    height: 100px;
-}
-
-.img{
-    margin: 0 auto;
+.main-title .avatar{
     width: 200px;
-    height: 200px;
-    background: rgb(168, 3, 3);
+    margin: 0 auto;
+}
+
+.row_title {
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: white;
+}
+
+.portfolio h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.box img{
+    width: 300px;
+    height: auto;
+    display: flex;
 }
 
 .about{
-    height: 250px;
+    height: auto;
     margin: 0 auto;
     background: rgb(5, 184, 145);
+    color: white;
+}
+
+.title_about{
+    width: 400px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    margin: 0 auto;
 }
 
 .box_about{
-    
-    background: rgb(117, 255, 225);
     margin: 0 auto;
 }
 
-.dati{
+.download{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.download button{
+    align-items: center;
+    border: 1px solid white;
+    color: white;
+}
+
+.download button:hover{
     background: white;
-    
 }
 
-.box_title_in{
-    background: lightgray;
+.dati{
+    background: white; 
 }
 
-.box_inserition{
-    background: lightgray;
-    height: 200px;
+.title-registration{
+    text-align: center;
+    text-transform: uppercase;
 }
 
-.box_button_in{
-    background: lightgray;
+.registration-form .form-control{
+    border: 0;
+    border-bottom: 1px solid lightgray;
+    border-radius: 0;
+}
+
+.registration-form .form-control:focus{
+    border-color: grey;
+    box-shadow: none;
+}
+
+.registration-form .txt{
+    height: 150px;
+}
+
+
+.button-dati button{
+    background: rgb(5, 184, 145);
+    color: white;
+    border: none;
 }
 
 .info{
